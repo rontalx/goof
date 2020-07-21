@@ -1,0 +1,98 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  'npm:ejs:20161130':
+    - ejs:
+        reason: breaking changes
+        expires: '2020-08-20T12:20:25.745Z'
+    - ejs-locals > ejs:
+        reason: None given
+        expires: '2020-08-20T12:20:25.747Z'
+  'npm:ejs:20161130-1':
+    - ejs:
+        reason: breaking changes
+        expires: '2020-08-20T12:20:25.746Z'
+    - ejs-locals > ejs:
+        reason: None given
+        expires: '2020-08-20T12:20:25.747Z'
+  'npm:ejs:20161128':
+    - ejs:
+        reason: breaking changes
+        expires: '2020-08-20T12:20:25.746Z'
+    - ejs-locals > ejs:
+        reason: None given
+        expires: '2020-08-20T12:20:25.747Z'
+  SNYK-JS-EXPRESSFILEUPLOAD-473997:
+    - express-fileupload:
+        reason: breaking changes
+        expires: '2020-08-20T12:20:25.746Z'
+  SNYK-JS-JQUERY-565129:
+    - jquery:
+        reason: breaking changes
+        expires: '2020-08-20T12:20:25.746Z'
+  SNYK-JS-JQUERY-567880:
+    - jquery:
+        reason: breaking changes
+        expires: '2020-08-20T12:20:25.746Z'
+  SNYK-JS-JQUERY-174006:
+    - jquery:
+        reason: breaking changes
+        expires: '2020-08-20T12:20:25.746Z'
+  'npm:jquery:20150627':
+    - jquery:
+        reason: breaking changes
+        expires: '2020-08-20T12:20:25.746Z'
+  SNYK-JS-SETVALUE-450213:
+    - tap > nyc > micromatch > nanomatch > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2020-08-20T12:20:25.746Z'
+    - tap > nyc > test-exclude > micromatch > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2020-08-20T12:20:25.746Z'
+    - tap > nyc > test-exclude > micromatch > braces > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2020-08-20T12:20:25.746Z'
+    - tap > nyc > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2020-08-20T12:20:25.746Z'
+    - tap > nyc > test-exclude > micromatch > extglob > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2020-08-20T12:20:25.746Z'
+    - tap > nyc > test-exclude > micromatch > nanomatch > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2020-08-20T12:20:25.746Z'
+    - tap > nyc > test-exclude > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2020-08-20T12:20:25.746Z'
+    - tap > nyc > micromatch > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2020-08-20T12:20:25.747Z'
+    - tap > nyc > micromatch > braces > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2020-08-20T12:20:25.747Z'
+    - tap > nyc > micromatch > extglob > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2020-08-20T12:20:25.747Z'
+    - tap > nyc > micromatch > nanomatch > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2020-08-20T12:20:25.747Z'
+    - tap > nyc > test-exclude > micromatch > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2020-08-20T12:20:25.747Z'
+    - tap > nyc > test-exclude > micromatch > braces > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2020-08-20T12:20:25.747Z'
+    - tap > nyc > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2020-08-20T12:20:25.747Z'
+    - tap > nyc > test-exclude > micromatch > extglob > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2020-08-20T12:20:25.747Z'
+    - tap > nyc > test-exclude > micromatch > nanomatch > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2020-08-20T12:20:25.747Z'
+    - tap > nyc > test-exclude > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2020-08-20T12:20:25.747Z'
+patch: {}
